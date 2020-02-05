@@ -1,0 +1,192 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+    height: 95vh;
+    box-shadow: 1px 1px 10px 1px grey;
+
+}
+
+nav {
+    background-color: rgb(110, 8, 8);
+    padding: 4vmin;
+}
+
+img {
+    width: 30%;
+    height: 20vh;
+    margin: 5vmin;
+}
+
+.bus {
+    width: 90%;
+    height: auto;
+    border-radius: 2vmin;
+    box-shadow: 1px 1px 10px 1px #f1f1f1;
+    border: 0.2vmin solid rgb(202, 199, 199);
+    margin-top: 5vmin;
+    margin-left: 5vmin;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.price {
+    position: relative;
+    left: 30%;
+    top: 7vh;
+}
+
+.pr {
+    text-align: center;
+}
+
+.details {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -4%;
+}
+
+.details ul {
+    list-style: none;
+}
+
+.details ul li{
+    display: inline;
+    background-color:  rgb(110, 8, 8);
+    color: white;
+    border-radius: 25px;
+    padding: 1vmin;
+    cursor: pointer;
+}
+
+.details ul li:hover{
+    background-color:  rgb(146, 34, 34);
+    color: white;
+}
+
+.busin {
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 90%;
+    height: 30vh;
+    padding: 2vmin;
+    box-sizing: border-box;
+    border-radius: 1vmin;
+}
+
+
+.showbus {
+    width: 50%;
+    margin-top: 2vmin;
+
+}
+
+button {
+    border: none;
+    background-color: white;
+    border: 0.1vmin solid gray;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid rgb(37, 37, 37);
+    text-align: center;
+    font-weight: bold;
+    width: 10%;
+    height: 4vh;
+}
+
+.ex1 {
+    border: none;
+    background-color: white;
+    border: 0.1vmin solid gray;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-right: 4px solid rgb(37, 37, 37);
+    text-align: center;
+    font-weight: bold;
+    width: 7%;
+    height: 2.5vh;  
+}
+
+button:focus {
+    outline: none;
+}
+
+.seat7, .seat13, .seat4, .seat10, .seat14, .seat3, .seat6, .seat9, .seat12, .seat2, .seat5, .seat8, .seat11 {
+margin-left: 5vmin;
+margin-bottom: 3vmin;
+}
+
+.seat13 {
+    float: right;
+    margin-right: 8%;
+}
+
+.dis {
+    background-color: rgb(133, 133, 133);
+    border: 0.1vmin solid rgb(82, 82, 82);
+    border-top: 4px solid rgb(82, 82, 82);
+    border-bottom: 4px solid rgb(82, 82, 82);
+    border-right: 4px solid rgb(82, 82, 82);
+    color: white;
+}
+
+.ex2 {
+    background-color: rgb(133, 133, 133);
+    border: 0.1vmin solid rgb(82, 82, 82);
+    border-top: 4px solid rgb(82, 82, 82);
+    border-bottom: 4px solid rgb(82, 82, 82);
+    border-right: 4px solid rgb(82, 82, 82);
+    color: white;
+    width: 7%;
+    height: 2.5vh;  
+}
+
+
+.sel {
+    background-color: rgb(14, 255, 6);
+    border: 0.1vmin solid rgb(0, 112, 15);
+    border-top: 4px solid rgb(0, 112, 15);
+    border-bottom: 4px solid rgb(0, 112, 15);
+    border-right: 4px solid rgb(0, 112, 15);
+    color: rgb(0, 112, 15);
+}
+
+.ex3 {
+    background-color: rgb(14, 255, 6);
+    border: 0.1vmin solid rgb(0, 112, 15);
+    border-top: 4px solid rgb(0, 112, 15);
+    border-bottom: 4px solid rgb(0, 112, 15);
+    border-right: 4px solid rgb(0, 112, 15);
+    color: rgb(0, 112, 15);
+    width: 7%;
+    height: 2.5vh;  
+
+}
+
+.err {
+    color: red;
+    text-align: center;
+    margin-bottom: -5%;
+}
+
+.flex2 {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin: 2vmin auto;
+}
+
+.seatdetails {
+    width: 50%;
+    margin-top: 5vmin;
+}
+
+.seatdetails p {
+    color: #222222;
+    display: inline;
+    font-weight: bold;
+}
